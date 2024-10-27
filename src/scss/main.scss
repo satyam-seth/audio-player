@@ -1,4 +1,7 @@
 @charset "UTF-8";
 
 // Base stuff
-@import 'base/resets';
+@use 'base/resets';
+
+// Page-specific styles
+@use 'pages/example';

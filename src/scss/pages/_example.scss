@@ -1,0 +1,12 @@
+@use '../components/audio-player';
+
+section.example {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+
+  @include audio-player.audio-player-widget {
+    width: min(95vw, 30rem);
+  }
+}
